@@ -1,0 +1,16 @@
+/*ELEMENTO UNIVERSAL*/
+/* quitar los estilos que el navergador coloca */
+*{
+    box-sizing: border-box; /* se clacule al mover lso tama;os del dipositivo se ajuesten */
+    padding: 0;
+    margin: 0;
+    
+}
+main{
+    width: 100%;
+    height: 500px;
+    border:10px solid grey;
+    padding: 20px 35px;  /*Espaacio 20 de arriba y abajo, 35 de izq y der*/
+    /* especidicar padding-left: */
+}
+

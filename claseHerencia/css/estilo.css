@@ -1,0 +1,8 @@
+html{
+    font-size: 75%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+    font-size: inherit;  /* INHERIT es Heredar, para que tambien me tome los estilos de html{}*/
+}

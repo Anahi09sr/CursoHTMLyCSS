@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilo.css" />
+</head>
+<body>
+    <main>
+        <picture> <!--para que pueda elegir que imaagen descargar-->
+            <source media="(min-width:1300px)" srcset="./img/desktop.jpg"> <!--La imagen de mayor peso siempre va arriba-->
+            <source media="(min-width:1000px)" srcset="./img/tablet.jpg"> <!--Diferentes imagenes-->
+           <img src="./img/mobile.jpg" alt="Es la imagen de mobile"/> <!--Renderiza la imagen-->
+        </picture>
+    </main>
+    
+</body>
+</html>

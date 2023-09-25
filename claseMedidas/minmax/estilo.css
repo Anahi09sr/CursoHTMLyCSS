@@ -1,0 +1,23 @@
+/*Selector Universa;*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+     width: 100vw;
+     height: 100vh;
+     background-color: purple;
+
+}
+section{
+    /*min width determina la anchura minima de un elemento y max define el ancho maximo*/
+    /*min heligt determina la altura minima de un elemento y max define la altura  maxima*
+    width: 80%;
+    min-width: 320px; /**/
+    max-width: 500px ; /*mantiene el contenerdor en 50 px, si crece la pantalla se seguira manteniendo*/
+    min-height: 500px; 
+    margin: 0 auto; /*De arriba a abajo no se le apliques margin solo a los lados*/
+    background-color:red;
+
+}

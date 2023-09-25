@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size:1.6rem;
+}
+.conteiner{
+    border: .3rem solid;
+    display: flex; /*acomoda todas las cajas horizontalmente*/
+    /*align-items: center; Alinea todos los elementos al centr*/
+    /*height: 50vp;*/
+    flex-wrap: wrap;
+}
+.box{
+    /*Los flex ayudaran para ajustar las cajas, cada vez que el tama;o vaya reduciendo se van ajustando, hasta quedar en vertical*/
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+.box1{
+    background-color: blue;
+     /*order: 1;  Ordena los elementos dependiiendo lel numero que le indique, si a un elemento o caja no se le indica unn orden lo que hara es que pasara todas esas cajas a lado izquierdo*/
+     /*flex-grow: 1; el flex-grow 1 y 2 van a estar ocupando el espacio que faltaba para rellenar el 100% del width */
+}
+.box2{
+    background-color:rgb(226, 43, 165);
+    
+}
+.box3{
+    background-color: rgb(148, 148, 255);
+}
+.box4{
+    background-color: rgb(27, 198, 52);
+}
+.box5{
+    background-color: rgb(170, 101, 45);
+}
+.box6{
+    background-color: rgb(162, 211, 0);
+}

@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size:1.6rem;
+}
+.conteiner{
+    border: .3rem solid;
+    display: flex; /*acomoda todas las cajas horizontalmente*/
+    flex-wrap: wrap; /*Permite reacomodar las cajas dependiendo el tamano del dipositivo*/
+    justify-content: center;  /*Permite centrar todas las cajas al centro*/
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color:rgb(226, 43, 165);
+}
+.box3{
+    background-color: rgb(148, 148, 255);
+}
+.box4{
+    background-color: rgb(27, 198, 52);
+}
+.box5{
+    background-color: rgb(170, 101, 45);
+}
+.box6{
+    background-color: rgb(162, 211, 0);
+}

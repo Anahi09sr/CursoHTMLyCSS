@@ -1,0 +1,10 @@
+                        /*Em toma el tamano que tenga el padre directo, si no tiene por defecto toma el de html  que es de 16 px
+                        luego hace una rega de 3 donde multiplica los 16px por 1.5 (em) y da el resultado de los px que es 24px*/
+.text-container{
+ font-size: 1.5em;
+}
+.text-container div{
+    font-size: 1.5em;
+}
+
+

@@ -1,0 +1,16 @@
+/*este va en todos los archivos de css es universal, el de * y html*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;   /*1 rem=16px - 62.5% =10px,  2 rem=20px, 1.6=16px*/
+}
+p{
+    font-size: 1.6rem;
+}
+/*Rem toma siempre la mismo valor del html, 1 rem equivale a 10px*/
+main div{
+    font-size: 1.6rem ;
+}

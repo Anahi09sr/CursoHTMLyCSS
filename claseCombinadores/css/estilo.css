@@ -1,0 +1,19 @@
+/* HERMANO ADYACENTE O CERCANO
+agrega los estilos a todos los que parrafoes que esten cercas de la etiqueta h2*/
+/*
+h2 + p{
+  color: red;
+}*/
+
+/* HERMANO GENERAL 
+se les aplicara el estilo a todos los p, ya que no importa la posicion son hermanos
+h2 ~ p{
+    color: red;
+}
+*/
+/* HIJO Y DESCENDIENTE*/
+
+div > p{
+  color: red;
+}
+

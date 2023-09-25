@@ -1,0 +1,37 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none; /*Quitar los punto de la lista*/
+    padding: left 0; /*agregar espacio interno, es un espacio interno en un contenedor*/
+    background-color: #13a4a4;
+}
+
+.main-nav__item{
+    display: inline-block;    /*Cambiaar de horizontal a vertical los elemento de la lista*/
+}
+/*Especificar*/
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;   /*poner las cajas con las esquinas redondas, en un caso que se desee que se vizualicen*/
+    text-decoration: none;
+}
+
+/* Cuando el mause esta arriba cambie*/
+.main-nav__item a:hover{
+    color: blue;
+}
+/* al darle click cambia de color*/
+.main-nav__item a:active{
+    color: red;
+
+}
+ /* Despues de la clase agregarle este contenido*/
+.main-nav__item a::after{
+    content: "|";
+    
+
+}
+
+/*SEUDOCLASE :class define estado especial de un elemento*/
+/* SEUDOELEMENTO :class define el estado de una parte especifica de un elemento*/
+

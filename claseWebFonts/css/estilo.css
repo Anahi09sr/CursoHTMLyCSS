@@ -1,0 +1,5 @@
+/*Cuando no se renderizan, solo es recomendable cargar una fiuente por proyecto, importar siempre en la etiqueta head */
+html{
+font-family: 'Mooli', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
